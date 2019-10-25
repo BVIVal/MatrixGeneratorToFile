@@ -23,7 +23,6 @@ namespace MPI_Helper
 
             Console.WriteLine("Press 'Enter' to finish.");
             Console.ReadLine();
-            Console.ReadLine();
         }
     }
 }
