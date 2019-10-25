@@ -21,6 +21,7 @@ namespace MPI_Helper
             if (!FileUtilities.FromFile<double>($"{SettingsFileName}.dat", out var dataStruct)) return;
             dataStruct.WriteDataStructInConsole();
 
+            Console.WriteLine("Press 'Enter' to finish.");
             Console.ReadLine();
         }
     }
